@@ -12,7 +12,7 @@ class ParentComponent extends Component {
 
     this.greetParent = this.greetParent.bind(this)
   }
-
+  //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
   greetParent(childName){
 
     alert(`Hello ${this.state.parentName} from ${childName}`)
